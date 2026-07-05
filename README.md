@@ -41,3 +41,22 @@ Add to `Packages/manifest.json`:
 `SampleScene/LightingData.asset` (from the original Shadow1E V1 package) fails
 to load with an "Unknown error" — this issue exists in the source package too
 and is not introduced by this package.
+
+## First-time install
+
+After Unity finishes resolving the package (the Project window
+will show `Packages > com.vex.bossroom1`), if the `Scene` folder
+appears empty:
+
+```text
+1.  In the Project window: right-click the
+    `Packages/com.vex.bossroom1` folder → Reimport.
+    Or, in Editor:  Assets > Reimport All
+2.  Wait for AssetDatabase to finish (check progress bar).
+3.  Scene/Boss Room 1.unity will appear.
+```
+
+This is needed because Unity does not auto-generate the package's
+folder `.meta` files on first install into the immutable
+`Library/PackageCache/`; the package now ships folder metas so this
+is a one-time step, not per-file.

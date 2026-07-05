@@ -1,6 +1,6 @@
 {
   "name": "com.vex.bossroom1",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "VEX Boss Room 1",
   "description": "Self-contained Boss Room 1 scene with all bundled dependencies.",
   "unity": "6000.0",
