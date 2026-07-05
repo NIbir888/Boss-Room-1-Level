@@ -1,0 +1,11 @@
+{
+  "name": "com.vex.bossroom1",
+  "version": "1.0.0",
+  "displayName": "VEX Boss Room 1",
+  "description": "Self-contained Boss Room 1 scene with all bundled dependencies.",
+  "unity": "6000.0",
+  "author": {
+    "name": "VEX"
+  },
+  "license": "UNLICENSED"
+}
